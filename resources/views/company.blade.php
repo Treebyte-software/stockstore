@@ -70,9 +70,8 @@ otstrap.min.css">
             <div class="container col-md-8 col-md-offset-2 mt-5">
                 <div class="card">
                     <div class="card-header ">
-                        <h3 class="float-left">List of Companies</h3>
+                        <h3 class="float-left">Road House's Companies</h3>
                         <div class="clearfix"></div>
-                        <hr>
                     </div>
                     <div class="card-body mt-2">
                         @if (count($companies) == 0)
@@ -98,6 +97,7 @@ otstrap.min.css">
                     </div>
                 </div>
             </div>
+            {{ $companies->links() }}
         </div>
     </body>
 </html>
