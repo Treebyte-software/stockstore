@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bo
+otstrap.min.css">
 
         <!-- Styles -->
         <style>
@@ -68,8 +70,9 @@
             <div class="container col-md-8 col-md-offset-2 mt-5">
                 <div class="card">
                     <div class="card-header ">
-                        <h5 class="float-left">Companies</h5>
+                        <h3 class="float-left">List of Companies</h3>
                         <div class="clearfix"></div>
+                        <hr>
                     </div>
                     <div class="card-body mt-2">
                         @if (count($companies) == 0)
