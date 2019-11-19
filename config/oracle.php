@@ -1,5 +1,5 @@
 <?php
-      // Setuo oracle
+      // Setuo oracle with oci8
 return [
     'oracle' => [
         'driver' => 'oracle',
