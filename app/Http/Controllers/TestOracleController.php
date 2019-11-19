@@ -11,8 +11,12 @@ class TestOracleController extends Controller
 
     public function test()
     {
-        $companies = DB::select('select code, description from sst_companies')->paginate(15);
-        return view('company', compact('companies'));
+        //$companies = DB::select('select code, description from sst_companies');
+        $companies = DB::table('sst_companies')->paginate(10);
+
+        return view('company', ['companies' => $companies]);
+
+        //return view('company', compact('companies'));
         //var_dump($companies);
     }
 }
