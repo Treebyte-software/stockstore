@@ -96,8 +96,9 @@ otstrap.min.css">
                         @endif
                     </div>
                 </div>
+                {{ $companies->links() }}
             </div>
-            {{ $companies->links() }}
+
         </div>
     </body>
 </html>
