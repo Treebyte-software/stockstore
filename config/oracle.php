@@ -1,5 +1,5 @@
 <?php
-
+      // Setuo oracle
 return [
     'oracle' => [
         'driver' => 'oracle',
