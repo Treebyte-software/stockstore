@@ -17,4 +17,4 @@
 });
 */
 
-Route::get('/', 'TestOracleController@test');
+Route::get('/test', 'TestOracleController@test');
