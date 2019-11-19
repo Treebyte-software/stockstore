@@ -11,8 +11,8 @@ class TestOracleController extends Controller
 
     public function test()
     {
-        $companies = DB::select('select * from sst_companies');
-
-        var_dump($companies);
+        $companies = DB::select('select code, description from sst_companies');
+        return view('company', compact('companies'));
+        //var_dump($companies);
     }
 }
