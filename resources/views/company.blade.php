@@ -72,7 +72,7 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="card-body mt-2">
-                        @if ($companies->isEmpty())
+                        @if (count($companies) == 0)
                             <p> There is no companies.</p>
                         @else
                             <table class="table">
