@@ -82,6 +82,7 @@ otstrap.min.css">
                                 <tr>
                                     <th>Code</th>
                                     <th>Description</th>
+                                    <th>Street</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -89,6 +90,7 @@ otstrap.min.css">
                                     <tr>
                                         <td>{{ $company->code }} </td>
                                         <td>{{ $company->description }}</td>
+                                        <td>{{ $company->street }}</td>
                                     </tr>
                                 @endforeach
                                 </tbody>
